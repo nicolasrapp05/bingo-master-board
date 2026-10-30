@@ -1,0 +1,23 @@
+{
+    "id": "./",
+    "name": "Tabuleiro de Bingo",
+    "short_name": "Bingo",
+    "description": "Organize e conduza partidas de bingo",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "fullscreen",
+    "background_color": "#d1cc85",
+    "theme_color": "#d1cc85",
+    "icons": [
+      {
+        "src": "./assets/img/appIcon192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/appIcon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

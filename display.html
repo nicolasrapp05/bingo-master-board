@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exibição — Bingo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/display.css">
+  </head>
+  <body class="displayBody">
+    <div id="display" class="displayRoot">
+      <p id="displayWait" class="displayWait">Aguardando o painel.<br>Abra esta janela pelo botão Exibição.</p>
+      <div id="displayStage" class="displayStage no-event" hidden>
+        <p id="displayEvent" class="displayEvent"></p>
+        <aside class="displaySide">
+          <div id="displayPattern" class="displayPattern"></div>
+          <div id="displayBall" class="displayBig bigBingoBallClass">
+            <div id="displayLetter" class="displayBigLetter">&nbsp;</div>
+            <div id="displayNumber" class="displayBigNumber" aria-live="polite">&nbsp;</div>
+          </div>
+          <div class="displayRemain"><strong id="displayRemainNum">0</strong> restantes</div>
+        </aside>
+        <div class="displayBoardWrap">
+          <div id="displayBoard" class="displayBoard"></div>
+        </div>
+      </div>
+      <div id="displayCallout" class="displayCallout" aria-hidden="true"></div>
+      <div class="displayFull">
+        <button type="button" id="displayFullEnter" aria-label="Entrar em tela cheia"></button>
+        <button type="button" id="displayFullExit" aria-label="Sair da tela cheia"></button>
+      </div>
+    </div>
+    <script src="./assets/js/display.js"></script>
+  </body>
+</html>
